@@ -1,0 +1,416 @@
+[
+ {
+  "id": 1,
+  "kode_mk": "MDU70002J",
+  "mata_kuliah": "Pendidikan Pancasila",
+  "sks": 2
+ },
+ {
+  "id": 2,
+  "kode_mk": "MDU70302J",
+  "mata_kuliah": "Pendidikan Agama (Islam)",
+  "sks": 2
+ },
+ {
+  "id": 3,
+  "kode_mk": "MDU70602J",
+  "mata_kuliah": "Pendidikan Agama (Protestan)",
+  "sks": 2
+ },
+ {
+  "id": 4,
+  "kode_mk": "MDU70702J",
+  "mata_kuliah": "Pendidikan Agama (Katolik)",
+  "sks": 2
+ },
+ {
+  "id": 5,
+  "kode_mk": "MDU70802J",
+  "mata_kuliah": "Pendidikan Agama (Buddha)",
+  "sks": 2
+ },
+ {
+  "id": 6,
+  "kode_mk": "MDU70902J",
+  "mata_kuliah": "Pendidikan Agama (Hindu)",
+  "sks": 2
+ },
+ {
+  "id": 7,
+  "kode_mk": "MDU71002J",
+  "mata_kuliah": "Pendidikan Agama (Konfusianisme)",
+  "sks": 2
+ },
+ {
+  "id": 8,
+  "kode_mk": "TIT20202J",
+  "mata_kuliah": "Teknologi Informasi",
+  "sks": 2
+ },
+ {
+  "id": 9,
+  "kode_mk": "TIT20102J",
+  "mata_kuliah": "Aplikasi Komputer",
+  "sks": 2
+ },
+ {
+  "id": 10,
+  "kode_mk": "TME20102J",
+  "mata_kuliah": "Menggambar Teknik",
+  "sks": 2
+ },
+ {
+  "id": 11,
+  "kode_mk": "UCS20402J",
+  "mata_kuliah": "Bahasa Inggris",
+  "sks": 2
+ },
+ {
+  "id": 12,
+  "kode_mk": "TGS21003J",
+  "mata_kuliah": "Fisika 1",
+  "sks": 3
+ },
+ {
+  "id": 13,
+  "kode_mk": "TMT20603J",
+  "mata_kuliah": "Kalkulus 1",
+  "sks": 3
+ },
+ {
+  "id": 14,
+  "kode_mk": "TGS20202J",
+  "mata_kuliah": "Ilmu Hidup",
+  "sks": 2
+ },
+ {
+  "id": 15,
+  "kode_mk": "MDU70102J",
+  "mata_kuliah": "Pendidikan Kewarganegaraan",
+  "sks": 2
+ },
+ {
+  "id": 16,
+  "kode_mk": "MDU70402J",
+  "mata_kuliah": "Bahasa Indonesia",
+  "sks": 2
+ },
+ {
+  "id": 17,
+  "kode_mk": "TGS20903J",
+  "mata_kuliah": "Fisika 2",
+  "sks": 3
+ },
+ {
+  "id": 18,
+  "kode_mk": "TST20202J",
+  "mata_kuliah": "Satistika Terapan",
+  "sks": 2
+ },
+ {
+  "id": 19,
+  "kode_mk": "UCS70402J",
+  "mata_kuliah": "Kewirausahaan",
+  "sks": 2
+ },
+ {
+  "id": 20,
+  "kode_mk": "TME20902J",
+  "mata_kuliah": "Pengantar Teknik Mesin",
+  "sks": 2
+ },
+ {
+  "id": 21,
+  "kode_mk": "TME21002J",
+  "mata_kuliah": "Menggambar Mesin",
+  "sks": 2
+ },
+ {
+  "id": 22,
+  "kode_mk": "TME20802J",
+  "mata_kuliah": "Material Teknik",
+  "sks": 2
+ },
+ {
+  "id": 23,
+  "kode_mk": "TMT20803J",
+  "mata_kuliah": "Kalkulus 2",
+  "sks": 3
+ },
+ {
+  "id": 24,
+  "kode_mk": "TGS20101J",
+  "mata_kuliah": "Praktikum Fisika",
+  "sks": 1
+ },
+ {
+  "id": 25,
+  "kode_mk": "TME20101J",
+  "mata_kuliah": "Praktikum AutoCAD",
+  "sks": 1
+ },
+ {
+  "id": 26,
+  "kode_mk": "TLW20002J",
+  "mata_kuliah": "Ketenagakerjaan dan K3",
+  "sks": 2
+ },
+ {
+  "id": 27,
+  "kode_mk": "TME21803J",
+  "mata_kuliah": "Mekanika Kekuatan Material",
+  "sks": 3
+ },
+ {
+  "id": 28,
+  "kode_mk": "TME21102J",
+  "mata_kuliah": "Metalurgi Fisik",
+  "sks": 2
+ },
+ {
+  "id": 29,
+  "kode_mk": "TMT20102J",
+  "mata_kuliah": "Aljabar Linier",
+  "sks": 2
+ },
+ {
+  "id": 30,
+  "kode_mk": "TME23404J",
+  "mata_kuliah": "Termodinamika",
+  "sks": 4
+ },
+ {
+  "id": 31,
+  "kode_mk": "TGS21103J",
+  "mata_kuliah": "Kimia",
+  "sks": 3
+ },
+ {
+  "id": 32,
+  "kode_mk": "TME21202J",
+  "mata_kuliah": "Pemilihan Bahan dan Proses",
+  "sks": 2
+ },
+ {
+  "id": 33,
+  "kode_mk": "TME22103J",
+  "mata_kuliah": "Statika Struktur",
+  "sks": 3
+ },
+ {
+  "id": 34,
+  "kode_mk": "TME20201J",
+  "mata_kuliah": "Praktikum Metalurgi Fisik",
+  "sks": 1
+ },
+ {
+  "id": 35,
+  "kode_mk": "TME23504J",
+  "mata_kuliah": "Mekanika Fluida",
+  "sks": 4
+ },
+ {
+  "id": 36,
+  "kode_mk": "TMT21003J",
+  "mata_kuliah": "Matematika Teknik",
+  "sks": 3
+ },
+ {
+  "id": 37,
+  "kode_mk": "TMT21103J",
+  "mata_kuliah": "Metode Numerik",
+  "sks": 3
+ },
+ {
+  "id": 38,
+  "kode_mk": "TMT21203J",
+  "mata_kuliah": "Metode Elemen Hingga",
+  "sks": 3
+ },
+ {
+  "id": 39,
+  "kode_mk": "TEL20302J",
+  "mata_kuliah": "Teknik Tenaga Listrik",
+  "sks": 2
+ },
+ {
+  "id": 40,
+  "kode_mk": "TME20501J",
+  "mata_kuliah": "Praktikum Fenomena Dasar",
+  "sks": 1
+ },
+ {
+  "id": 41,
+  "kode_mk": "TME21302J",
+  "mata_kuliah": "Metrologi Industri & Kontrol Kualitas",
+  "sks": 2
+ },
+ {
+  "id": 42,
+  "kode_mk": "TME21402J",
+  "mata_kuliah": "Getaran Mekanik",
+  "sks": 2
+ },
+ {
+  "id": 43,
+  "kode_mk": "TME22204J",
+  "mata_kuliah": "Elemen Mesin",
+  "sks": 4
+ },
+ {
+  "id": 44,
+  "kode_mk": "TME22004J",
+  "mata_kuliah": "Proses Produksi",
+  "sks": 4
+ },
+ {
+  "id": 45,
+  "kode_mk": "TME23604J",
+  "mata_kuliah": "Perpindahan Kalor dan Massa",
+  "sks": 4
+ },
+ {
+  "id": 46,
+  "kode_mk": "TME20301J",
+  "mata_kuliah": "Praktikum Mesin Fluida",
+  "sks": 1
+ },
+ {
+  "id": 47,
+  "kode_mk": "TME22303J",
+  "mata_kuliah": "Sistem Kontrol",
+  "sks": 3
+ },
+ {
+  "id": 48,
+  "kode_mk": "TIT20403J",
+  "mata_kuliah": "Pemrograman Saintifik",
+  "sks": 2
+ },
+ {
+  "id": 49,
+  "kode_mk": "TME20401J",
+  "mata_kuliah": "Praktikum Proses Produksi",
+  "sks": 1
+ },
+ {
+  "id": 50,
+  "kode_mk": "TRS20102J",
+  "mata_kuliah": "Metodologi Penelitian",
+  "sks": 2
+ },
+ {
+  "id": 51,
+  "kode_mk": "TME21502J",
+  "mata_kuliah": "Pengukuran Teknik",
+  "sks": 2
+ },
+ {
+  "id": 52,
+  "kode_mk": "TME23704J",
+  "mata_kuliah": "Kinematika dan Dinamika",
+  "sks": 4
+ },
+ {
+  "id": 53,
+  "kode_mk": "TME23804J",
+  "mata_kuliah": "Mesin Konversi Energi",
+  "sks": 4
+ },
+ {
+  "id": 54,
+  "kode_mk": "TIT20401J",
+  "mata_kuliah": "Praktikum Pemrograman Saintifik",
+  "sks": 1
+ },
+ {
+  "id": 55,
+  "kode_mk": "TME23904J",
+  "mata_kuliah": "Perancangan Mekanikal",
+  "sks": 4
+ },
+ {
+  "id": 56,
+  "kode_mk": "TME21603J",
+  "mata_kuliah": "Mekatronika",
+  "sks": 3
+ },
+ {
+  "id": 57,
+  "kode_mk": "TME22403J",
+  "mata_kuliah": "Pompa dan Kompresor (KE)",
+  "sks": 3
+ },
+ {
+  "id": 58,
+  "kode_mk": "TME22503J",
+  "mata_kuliah": "Motor Bakar (KE)",
+  "sks": 3
+ },
+ {
+  "id": 59,
+  "kode_mk": "TME22603J",
+  "mata_kuliah": "Mesin Perkakas (KP)",
+  "sks": 3
+ },
+ {
+  "id": 60,
+  "kode_mk": "TME22703J",
+  "mata_kuliah": "Teknik Kendaraan (KP)",
+  "sks": 3
+ },
+ {
+  "id": 61,
+  "kode_mk": "TLI20102J",
+  "mata_kuliah": "Praktik Kerja Industri",
+  "sks": 2
+ },
+ {
+  "id": 62,
+  "kode_mk": "TRS20402J",
+  "mata_kuliah": "Seminar Proposal",
+  "sks": 2
+ },
+ {
+  "id": 63,
+  "kode_mk": "TME22803J",
+  "mata_kuliah": "Komputasi Dinamika Fluida",
+  "sks": 3
+ },
+ {
+  "id": 64,
+  "kode_mk": "TME22903J",
+  "mata_kuliah": "Pemodelan & Simulasi Metode Elemen Hingga",
+  "sks": 3
+ },
+ {
+  "id": 65,
+  "kode_mk": "TME23003J",
+  "mata_kuliah": "Turbin (KE)",
+  "sks": 3
+ },
+ {
+  "id": 66,
+  "kode_mk": "TME23103J",
+  "mata_kuliah": "Teknik Pengkondisian Udara (KE)",
+  "sks": 3
+ },
+ {
+  "id": 67,
+  "kode_mk": "TME23203J",
+  "mata_kuliah": "Mesin Pengangkat (KP)",
+  "sks": 3
+ },
+ {
+  "id": 68,
+  "kode_mk": "TME23303J",
+  "mata_kuliah": "Sistem Pneumatis dan Hidrolis (KP)",
+  "sks": 3
+ },
+ {
+  "id": 69,
+  "kode_mk": "TRS21805J",
+  "mata_kuliah": "Skripsi",
+  "sks": 5
+ }
+]
