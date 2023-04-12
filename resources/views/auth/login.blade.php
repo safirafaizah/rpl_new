@@ -60,6 +60,7 @@
                                 <a href="{{ route('password.request') }}">
                                     <small>Lupa Password?</small>
                                 </a>
+                                
                             </div>
                         </div>
                         <div class="mb-3 text-center">

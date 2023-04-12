@@ -67,7 +67,7 @@
             </a>
             <ul class="menu-sub">
                 <li class="menu-item ">
-                    <a href="" class="menu-link">
+                    <a href="{{ route('pengaturan.akun') }}" class="menu-link">
                         <i class="menu-icon tf-icons bx bx-user-circle"></i>
                         <div data-i18n="Dashboards">Akun</div>
                     </a>
@@ -79,7 +79,7 @@
                     </a>
                 </li>
                 <li class="menu-item ">
-                    <a href="" class="menu-link">
+                    <a href="{{ route('pengaturan.matakuliah') }}" class="menu-link">
                         <i class="menu-icon tf-icons bx bxs-book"></i>
                         <div data-i18n="Dashboards">Mata Kuliah</div>
                     </a>
