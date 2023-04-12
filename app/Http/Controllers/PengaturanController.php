@@ -172,7 +172,7 @@ class PengaturanController extends Controller
                 'mata_kuliah'=> ['required'],
                 'sks'=> ['nullable', 'numeric', 'between:0,99.99'],
             ]);
-            $data = Kegiatan::find($id);
+            $data = MataKuliah::find($id);
             $d = $data->update([ 
                 'kode_mk' => $request->kode_mk,
                 'mata_kuliah' => $request->mata_kuliah,

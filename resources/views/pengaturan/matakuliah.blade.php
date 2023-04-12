@@ -228,7 +228,7 @@
                 },
                 {
                     render: function (data, type, row, meta) {
-                        return `<a class="text-success" title="Edit" href="{{ url('matakuliah/ubah/` + row.idd + `') }}"><i class="bx bxs-edit"></i></a>
+                        return `<a class="text-success" title="Edit" href="{{ url('pengaturan/matakuliah/ubah/` + row.idd + `') }}"><i class="bx bxs-edit"></i></a>
                             <a class="text-danger" title="Delete" onclick="DeleteId(` + row.id +`)" ><i class="bx bx-trash"></i></a> `;
                     },
                     className: "text-center"

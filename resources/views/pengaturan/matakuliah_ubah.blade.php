@@ -1,11 +1,7 @@
 @extends('layouts.master')
-@section('title', $data->nama )
-@section('breadcrumb-items')
-<span class="text-muted fw-light">Pengaturan / Akun / </span>
-@endsection
+@section('title', 'Ubah Mata Kuliah')
 
 @section('css')
-<link rel="stylesheet" href="{{asset('assets/vendor/libs/select2/select2.css')}}" />
 @endsection
 
 @section('style')
@@ -13,29 +9,36 @@
 </style>
 @endsection
 
+@section('breadcrumb-items')
+<span class="text-muted fw-light">Pengaturan / Mata Kuliah / </span>
+@endsection
+
 @section('content')
-<!-- User Profile Content -->
-<div class="row">
-    <div class="col-md-12">
-        @if(session('msg'))
-        <div class="alert alert-primary alert-dismissible" role="alert">
-            {{session('msg')}}
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
-        @endif
-        <div class="card mb-4">
-            <h5 class="card-header"><img src="{{ $data->image() }}" class="w-40 h-40 rounded-circle" style="width:40px; height:40px;object-fit: cover; margin-right:10px;"> Perbarui Akun </h5>
-            <!-- Account -->
-            <hr class="my-0">
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card tour-card">
+            <h5 class="card-header">Ubah Mata Kuliah </h5>
             <div class="card-body">
-                <form action="" method="POST">
+            <form id="formAccountSettings" enctype="multipart/form-data" action="" method="POST">
+                    @csrf
                     <div class="row">
-                        @csrf
-                        <div class="mb-3 col-md-6">
-                            <label for="nama" class="form-label">Nama Lengkap</label>
-                            <input type="text" class="form-control @error('nama') is-invalid @enderror" id="nama"
-                                name="nama" value="{{ $data->nama }}" placeholder="Masukkan Nama" autofocus />
-                            @error('nama')
+                    <div class="mb-3 col-md-12">
+                            <label for="kode_mk" class="form-label">Kode Mata Kuliah<i class="text-danger">*</i></label>
+                            <input type="text" name="kode_mk" value="{{ $data->kode_mk }}"
+                                class="form-control @error('kode_mk') is-invalid @enderror" placeholder="">
+                            @error('kode_mk')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                            @enderror
+                        </div>
+
+
+                      <div class="mb-3 col-md-12">
+                            <label for="mata_kuliah" class="form-label">Mata Kuliah<i class="text-danger">*</i></label>
+                            <input type="text" name="mata_kuliah" value="{{ $data->mata_kuliah }}"
+                                class="form-control @error('mata_kuliah') is-invalid @enderror" placeholder="">
+                            @error('mata_kuliah')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
                             </span>
@@ -43,90 +46,28 @@
                         </div>
 
                         <div class="mb-3 col-md-6">
-                            <label for="user" class="form-label">Username</label>
-                            <input type="username" class="form-control @error('username') is-invalid @enderror"
-                                id="user" name="username" value="{{ $data->username  }}"
-                                placeholder="Masukkan Username" />
-                            @error('username')
+                            <label for="sks" class="form-label">SKS</label>
+                            <input type="text" name="sks" value="{{ $data->sks }}"
+                                class="form-control @error('sks') is-invalid @enderror" placeholder="">
+                            @error('sks')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
                             </span>
                             @enderror
                         </div>
 
-                        <div class="mb-3 col-md-6">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control @error('email') is-invalid @enderror" id="email"
-                                name="email" value="{{ (old('email') == null ? 
-                                    ( strstr($data->email, $data->username) == false ? $data->email : '') 
-                                    : old('email')) }}" placeholder="Masukkan Email"  />
-                            @error('email')
-                            <span class="invalid-feedback" role="alert">
-                                <strong>{{ $message }}</strong>
-                            </span>
-                            @enderror
+                        <div class="mt-2">
+                            <button type="submit" name="ubah" class="btn btn-primary me-2">Ubah</button>
+                            <a class="btn btn-outline-secondary" href="{{ route('pengaturan.matakuliah') }}">Kembali</a>
                         </div>
-
-                        <div class="mb-3 col-md-6">
-                            <label class="form-label">Hak Akses</label>
-                            <select class="select2 form-select" multiple="multiple" name="roles[]" id="select2Dark"
-                                >
-                                @foreach($roles as $role)
-                                <option value="{{$role->id}}" {{ $data->hasRole($role->id) ? 'selected' : '' }}>
-                                    {{$role->title}}</option>
-                                @endforeach
-                            </select>
-                        </div>
-                    </div>
-                    <div class="mt-2">
-                        <button type="submit" class="btn btn-primary me-2">Simpan</button>
-                        <a class="btn btn-outline-secondary" href="{{ route('pengaturan.akun') }}">Kembali</a>
-                    </div>
                 </form>
             </div>
-            <!-- /Account -->
         </div>
     </div>
 </div>
 
-<!--/ User Profile Content -->
 @endsection
 @section('script')
-<script src="{{asset('assets/vendor/libs/select2/select2.js')}}"></script>
 <script>
-    "use strict";
-    setTimeout(function () {
-        (function ($) {
-            "use strict";
-            $(".select2").select2({
-                allowClear: true,
-                minimumResultsForSearch: 7
-            });
-        })(jQuery);
-    }, 350);
 </script>
-<!-- <script>
-    "use strict";
-    $(function () {
-        const e = $(".selectpicker"),
-            t = $(".select2"),
-            c = $(".select2-icons");
-        function i(e) {
-            return e.id ? "<i class='bx bxl-" + $(e.element).data("icon") + " me-2'></i>" + e.text : e.text
-        }
-        e.length && e.selectpicker(), t.length && t.each(function () {
-            var e = $(this);
-            e.wrap('<div class="position-relative"></div>').select2({
-                placeholder: "Select value",
-                dropdownParent: e.parent()
-            })
-        }), c.length && c.wrap('<div class="position-relative"></div>').select2({
-            templateResult: i,
-            templateSelection: i,
-            escapeMarkup: function (e) {
-                return e
-            }
-        })
-    });
-</script> -->
 @endsection
